@@ -74,8 +74,8 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_CONFIG_H_AUTHOR "(Daniel BP, Ender-3)" // Who made the changes. Customized DBP
-//#define SHOW_BOOTSCREEN //Customized DBP
+#define STRING_CONFIG_H_AUTHOR "(Hector Espert, Ender 3 Pro)" // Who made the changes. Customized DBP
+#define SHOW_BOOTSCREEN //Customized DBP
 #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 WEBSITE_URL         // will be shown during bootup in line 2
 
@@ -129,7 +129,7 @@
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "Marlin 1.1.9.1" //Customized DBP
+#define CUSTOM_MACHINE_NAME "Ender 3 Pro" //Customized DBP
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
